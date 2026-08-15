@@ -1,0 +1,36 @@
+# Environment
+.env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# YOLO weights
+*.pt
+*.onnx
+*.engine
+
+# Runtime data
+logs/
+*.db
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temp / media
+tmp/
+temp/
+*.mp4
+*.avi
+*.mov
+*.mkv
+data/*
+!data/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
